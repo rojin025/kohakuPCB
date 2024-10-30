@@ -1,5 +1,5 @@
 # MCU info
-MCU_FAMILY = KINETIS
+MCU_FAMILY = KALAM
 
 # KL2x for Teensy LC
 # K20x for Teensy 3.x

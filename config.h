@@ -19,8 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID 0xFEED
-#define PRODUCT_ID 0x0000
+#define VENDOR_ID 0x7B7B
+#define PRODUCT_ID 0x798A
 #define DEVICE_VER 0x0001
 #define MANUFACTURER Matt3o
 #define PRODUCT 3dwf
@@ -28,7 +28,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 /* key matrix size */
 #define MATRIX_ROWS 5
-#define MATRIX_COLS 16
+#define MATRIX_COLS 15
 
 /*
  * Keyboard Matrix Assignments
@@ -41,7 +41,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 #define MATRIX_ROW_PINS { D0, A12, A13, D4, D7 }
-#define MATRIX_COL_PINS { C2, D2, D3, C3, C6, C4, C7, D1, C0, B0, B1, B3, C1, D6, D5, B2 }
+#define MATRIX_COL_PINS { C2, D2, D3, C3, C6, C4, C7, D1, C0, B0, B1, B3, C1, D6, D5 }
 #define UNUSED_PINS
 
 /* COL2ROW, ROW2COL*/
